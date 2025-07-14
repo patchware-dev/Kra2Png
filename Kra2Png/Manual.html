@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Kra2Png by PATCHWARE, 2025 -->
+
+<head>
+  <title>Kra2Png Documentation</title>
+</head>
+
+<body>
+
+<h3>Kra2Png – Batch Export .kra Files to .png</h3>
+
+<p><strong>Kra2Png</strong> is a Krita plugin that allows you to quickly export all <code>.kra</code> files in a selected folder as flattened <code>.png</code> images.</p>
+
+<p>This is useful for:
+<ul>
+  <li>Archiving or sharing your artwork outside Krita</li>
+  <li>Batch-exporting work for external tools or pipelines</li>
+  <li>Reducing time spent manually opening and exporting each file</li>
+</ul>
+</p>
+
+<h3>Usage</h3>
+
+<ol>
+  <li>Go to <strong>Tools &gt; Scripts &gt; Batch Export .kra to PNG</strong> (or wherever you installed it).</li>
+  <li>First popup: Select the folder containing your <code>.kra</code> files.</li>
+  <li>The plugin will create a subfolder called <code>Exported_PNGs</code> inside that folder (automatically).</li>
+  <li>All <code>.kra</code> files will be opened in the background and exported as <code>.png</code> into the new subfolder.</li>
+</ol>
+
+<p>During the export, small notification "toasts" will appear to indicate progress. Once complete, you’ll see a confirmation message.</p>
+
+<h3>Notes</h3>
+<ul>
+  <li>PNG export includes transparency and uses maximum compression (level 9).</li>
+  <li>Files are processed in batch mode — documents are not shown or modified.</li>
+  <li>Only files ending in <code>.kra</code> (not subfolders) will be processed.</li>
+</ul>
+
+</body>
+</html>
