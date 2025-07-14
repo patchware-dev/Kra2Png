@@ -10,6 +10,19 @@ This is useful for:
 - Batch-exporting work for external tools or pipelines
 - Reducing time spent manually opening and exporting each file
 
+## How To Install a Krita Plugin
+    1. Locate Krita’s pykrita folder:
+    - Linux: ~/.local/share/krita/pykrita/
+    - Windows: C:\Users\<YourName>\AppData\Roaming\krita\pykrita\
+    - macOS: ~/Library/Application Support/Krita/pykrita/
+    2. Copy the Kra2Png folder and the Kra2Png.desktop file into pykrita/
+    3. Restart Krita
+    4. Activate the plugin
+    - Go to Settings > Configure Krita > Python Plugin Manager
+    - Find Kra2Png in the list and check the box to enable it
+    - Click OK and restart Krita again if needed
+
+
 ## Usage
 
 1. Go to **Tools > Scripts > Batch Export .kra to PNG** (or wherever you installed it).
