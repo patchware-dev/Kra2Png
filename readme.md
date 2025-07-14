@@ -2,29 +2,26 @@
 
 ## Kra2Png – Batch Export .kra Files to .png
 
-**Kra2Png** is a Krita plugin that allows you to quickly export all `.kra` files in a selected folder as flattened `.png` images.
+**Kra2Png** is a Krita plugin that allows you to quickly export all `.kra` files in a selected folder as flattened `.png` images. I use this for quickly exporting every page of my in-progress comic.
 
-This is useful for:
-
+You may find this useful for:
 - Archiving or sharing your artwork outside Krita
 - Batch-exporting work for external tools or pipelines
 - Reducing time spent manually opening and exporting each file
 
 ## How To Install a Krita Plugin
-    1. Locate Krita’s pykrita folder:
-    - Linux: ~/.local/share/krita/pykrita/
-    - Windows: C:\Users\<YourName>\AppData\Roaming\krita\pykrita\
-    - macOS: ~/Library/Application Support/Krita/pykrita/
-    2. Copy the Kra2Png folder and the Kra2Png.desktop file into pykrita/
-    3. Restart Krita
-    4. Activate the plugin
-    - Go to Settings > Configure Krita > Python Plugin Manager
-    - Find Kra2Png in the list and check the box to enable it
-    - Click OK and restart Krita again if needed
-
+1. Locate Krita’s pykrita folder:
+- Linux: ~/.local/share/krita/pykrita/
+- Windows: C:\Users\<YourName>\AppData\Roaming\krita\pykrita\
+- macOS: ~/Library/Application Support/Krita/pykrita/
+2. Copy the *Kra2Png folder* and the *Kra2Png.desktop* file into *pykrita/* (You don't need the gitignore or readme files!)
+3. Restart Krita
+4. Activate the plugin
+- Go to Settings > Configure Krita > Python Plugin Manager
+- Find Kra2Png in the list and check the box to enable it
+- Click OK and restart Krita again if needed
 
 ## Usage
-
 1. Go to **Tools > Scripts > Batch Export .kra to PNG** (or wherever you installed it).
 2. First popup: Select the folder containing your `.kra` files.
 3. The plugin will create a subfolder called `Exported_PNGs` inside that folder (automatically).
